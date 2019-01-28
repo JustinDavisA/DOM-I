@@ -59,3 +59,39 @@ ctaBtn.textContent = siteContent["cta"].button;
 
 const ctaImg = document.getElementById("cta-img");
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
+
+//top main
+const featureHead = document.querySelector("div h4");
+featureHead.textContent = siteContent["main-content"]["features-h4"];
+
+const featureContent = document.querySelector("div p");
+featureContent.textContent = siteContent["main-content"]["features-content"];
+
+const aboutHeader = document.querySelectorAll("div h4");
+aboutHeader[1].textContent = siteContent["main-content"]["about-h4"];
+
+const aboutContent = document.querySelectorAll("div p");
+aboutContent[1].textContent = siteContent["main-content"]["about-content"];
+
+//middle main
+const middleImg = document.getElementById("middle-img");
+middleImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+
+//bottom main
+const servicesHead = document.querySelectorAll("div h4");
+servicesHead[2].textContent = siteContent["main-content"]["services-h4"];
+
+const servicesContent = document.querySelectorAll("div p");
+servicesContent[2].textContent = siteContent["main-content"]["services-content"];
+
+const productHead = document.querySelectorAll("div h4");
+productHead[3].textContent = siteContent["main-content"]["product-h4"];
+
+const productContent = document.querySelectorAll("div p");
+productContent[3].textContent = siteContent["main-content"]["product-content"];
+
+const visionHead = document.querySelectorAll("div h4");
+visionHead[4].textContent = siteContent["main-content"]["vision-h4"];
+
+const visionContent = document.querySelectorAll("div p");
+visionContent[4].textContent = siteContent["main-content"]["vision-content"];
