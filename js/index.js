@@ -95,3 +95,16 @@ visionHead[4].textContent = siteContent["main-content"]["vision-h4"];
 
 const visionContent = document.querySelectorAll("div p");
 visionContent[4].textContent = siteContent["main-content"]["vision-content"];
+
+// Contact
+const contactHead = document.querySelector(".contact h4");
+contactHead.textContent = siteContent["contact"]["contact-h4"];
+
+const contactInfo = document.querySelectorAll(".contact p");
+contactInfo[0].textContent = siteContent["contact"]["address"];
+contactInfo[1].textContent = siteContent["contact"]["phone"];
+contactInfo[2].textContent = siteContent["contact"]["email"];
+
+// Footer
+const footer = document.querySelector("footer p");
+footer.textContent = siteContent["footer"]["copyright"];
